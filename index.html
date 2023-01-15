@@ -1,0 +1,554 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mixtape</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap"     rel="stylesheet">
+   
+    <link rel="stylesheet" href="css/reset.css">   
+    <link rel="stylesheet" href="css/main_common_max599.css">
+    <link rel="stylesheet" href="css/main_common_min600.css">
+    <link rel="stylesheet" href="css/main_common_min1200.css">   
+    <link rel="stylesheet" href="css/main_max599.css">
+    <link rel="stylesheet" href="css/main_min600.css">
+    <link rel="stylesheet" href="css/main_min1200.css">
+ 
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(".a").click(function () {
+                $(".b").slideToggle();
+            });
+            $(window).resize(function () {
+                if (window.innerWidth >= 600) {
+                    $(".b").show();
+                }
+                if (window.innerWidth <= 1200) {
+                    $(".b").hide();
+                }
+            });
+        });
+
+    </script>
+
+
+</head>
+
+<body>
+    <div id="wrap">
+        <!--헤더-->
+        <header>
+            <div id="headbox">
+                <div class="small">
+                    <div class="logo"><a href="index.html" target="_self"><img src="img/logo.png" alt="로고 이미지"></a></div>
+                    <img src="img/hamburger.png" class="a" alt="">
+                </div>
+                <nav class="b">
+                    <ul>
+                        <li id="b1"><a href="index.html">Home</a></li>
+                        <li><a href="sub.html">Discograpy</a></li>
+                        <li><a href="sub.html">Tours</a></li>
+                        <li><a href="sub.html">Pages</a></li>
+                        <li><a href="sub.html">Gallery</a></li>
+                        <li><a href="sub.html">Blog</a></li>
+                        <li><a href="sub.html">Shop</a></li>
+                        <li><a href="sub.html">Elements</a></li>                        
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!--슬라이더-->
+        <div id="slider">
+            <div id="slider_box">
+                <h4>Debut Album Out Now</h4>
+                <h1>Musician Of<br> The Year</h1>
+                <hr>
+                <p>Lorem ipsum dolor amet, postulant contentiones voluptatibus ut has.<br>
+                    Ex alii aliquid vel, id vix saepe sententiae effico.</p>
+            </div>
+        </div>
+
+        <!--카운트-->
+        <div id="count">
+            <div id="c_text">
+                <h5>Madison Square Garden, New York</h5>
+                <h2>Next Performance</h2>
+
+                <div id="c_box">
+                    <div class="countbox">
+                        <h1>00</h1>
+                        <h5>Days</h5>
+                    </div>
+                    <div class="countbox">
+                        <h1>00</h1>
+                        <h5>Hours</h5>
+                    </div>
+                    <div class="countbox">
+                        <h1>00</h1>
+                        <h5>Minutes</h5>
+                    </div>
+                    <div class="countbox">
+                        <h1>00</h1>
+                        <h5>Seconds</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--섹션1 아티스트 시작구간-->
+        <section id="artists">
+            <h5>Madison Square Garden</h5>
+            <h2>Amazing Artists / Most Popular</h2>
+            <hr>
+            <section class="artist1">
+                <a href="#">
+                    <div class="imgbox">
+                        <div class="box1"><img src="img/disc.png" alt=""></div>
+                        <div class="box2"><img src="img/artist1.jpg" alt="아티스트1"></div>
+                    </div>
+                    <h6>Main Stage</h6>
+                    <h4>Frau Power</h4>
+                </a>
+            </section>
+
+            <section class="artist2">
+                <a href="#">
+                    <div class="imgbox">
+                        <div class="box1"><img src="img/disc.png" alt=""></div>
+                        <div class="box2"><img src="img/artist2.jpg" alt="아티스트2"></div>
+                    </div>
+                    <h6>Funky Vibes</h6>
+                    <h4>Grace Moreno</h4>
+                </a>
+            </section>
+
+            <section class="artist3">
+                <a href="#">
+                    <div class="imgbox">
+                        <div class="box1"><img src="img/disc.png" alt=""></div>
+                        <div class="box2"><img src="img/artist3.jpg" alt="아티스트3"></div>
+                    </div>
+                    <h6>Arena Stage</h6>
+                    <h4>Fishing Basket</h4>
+                </a>
+            </section>
+
+            <section class="artist4">
+                <a href="#">
+                    <div class="imgbox">
+                        <div class="box1"><img src="img/disc.png" alt=""></div>
+                        <div class="box2"><img src="img/artist4.jpg" alt="아티스트4"></div>
+                    </div>
+                    <h6>Fusion Stage</h6>
+                    <h4>Aaron Burke</h4>
+                </a>
+            </section>
+
+            <section class="artist5">
+                <a href="#">
+                    <div class="imgbox">
+                        <div class="box1"><img src="img/disc.png" alt=""></div>
+                        <div class="box2"><img src="img/artist5.jpg" alt="아티스트5"></div>
+                    </div>
+                    <h6>Select Stage</h6>
+                    <h4>Jessica Lewis</h4>
+                </a>
+            </section>
+
+            <section class="artist6">
+                <a href="#">
+                    <div class="imgbox">
+                        <div class="box1"><img src="img/disc.png" alt=""></div>
+                        <div class="box2"><img src="img/artist6.jpg" alt="아티스트6"></div>
+                    </div>
+                    <h6>Main Stage</h6>
+                    <h4>Robert Porter</h4>
+                </a>
+            </section>
+        </section>
+
+
+        <!--섹션2 티켓 구간-->
+        <section id="tickets">
+            <div class="ticket">
+                <h5>Madison Square Garden</h5>
+                <h2>Amazing Discount On Tickets</h2>
+                <hr>
+                <span onclick="location.href='#'">buy tickets</span>
+            </div>
+        </section>
+
+        <!--섹션3 앨범 구간-->
+        <section id="albums">
+            <div class="albums_wrap">
+                <h5>Madison Square Garden</h5>
+                <h2>Latest Albums / Singles</h2>
+                <hr>
+                <div class="albums_big">
+                    <div class="albumsbox">
+                        <div class="albumsimg">
+                            <img src="img/s3_img.jpg" alt="섹션3 이미지1">
+                        </div>
+                        <a href="#">
+                            <div class="albumtext">
+                                <p>Frau Power</p>
+                                <h2>Space Of My Way</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="albumsbox">
+                        <div class="albumsimg">
+                            <img src="img/s3_img2.jpg" alt="섹션3 이미지2">
+                        </div>
+                        <a href="#">
+                            <div class="albumtext">
+                                <p>Frau Power</p>
+                                <h2>Young Game</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="albumsbox">
+                        <div class="albumsimg">
+                            <img src="img/s3_img3.jpg" alt="섹션3 이미지3">
+                        </div>
+                        <a href="#">
+                            <div class="albumtext">
+                                <p>Frau Power</p>
+                                <h2>Bomb Feeling</h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!--섹션4 일정 구간-->
+        <section id="schedule">
+            <table>
+                <tr>
+                    <td>10</td>
+                    <td>
+                        Jun<br>
+                        Thu</td>
+                    <td><a href="#">Chelmsford, UK – V Festival</a></td>
+                    <td>sold out!</td>
+                </tr>
+
+                <tr>
+                    <td>13</td>
+                    <td>
+                        Jun<br>
+                        Sun</td>
+                    <td><a href="#">Sheffield, UK – Tramlines</a></td>
+                    <td><a href="#">
+                            <div class="sd_photo"><img src="img/arrow.png" alt=""></div>buy tickets
+                        </a></td>
+                </tr>
+
+                <tr>
+                    <td>15</td>
+                    <td>
+                        Jun<br>
+                        The</td>
+                    <td><a href="#">Kostrzyn, Poland – Woodstock</a></td>
+                    <td><a href="#">
+                            <div class="sd_photo"><img src="img/arrow.png" alt=""></div>buy tickets
+                        </a></td>
+                </tr>
+
+                <tr>
+                    <td>17</td>
+                    <td>
+                        Jun<br>
+                        Sun</td>
+                    <td><a href="#">Lisbon, Portugal – Rock in Rio</a></td>
+                    <td>free!</td>
+                </tr>
+
+                <tr>
+                    <td>20</td>
+                    <td>
+                        Jun<br>
+                        Sun</td>
+                    <td><a href="#">Glastonbury, UK – Glastonbury</a></td>
+                    <td><a href="#">
+                            <div class="sd_photo"><img src="img/arrow.png" alt=""></div>buy tickets
+                        </a></td>
+                </tr>
+
+                <tr>
+                    <td>22</td>
+                    <td>
+                        Jun<br>
+                        The</td>
+                    <td><a href="#">Bremen, Germany – Hurricane</a></td>
+                    <td>sold out!</td>
+                </tr>
+            </table>
+
+            <button type="button" onclick="location.href='#'">view all</button>
+        </section>
+
+
+        <!--섹션5 이미지 구간-->
+        <section id="coverart">
+            <div class="ca_box1">
+                <a href="#"><img src="img/reimg8.jpg" alt=""></a>
+            </div>
+
+            <div class="ca_box2">
+                <img src="img/s5_img2.gif" alt="">
+                <a href="#">
+                    <div class="ca_text">
+                        <h2>April 19, 2017Festivals</h2>
+                        <h1>Music On – World off</h1>
+                    </div>
+                </a>
+            </div>
+
+            <div class="ca_box2">
+                <img src="img/s5_img3.jpg" alt="">
+                <a href="#">
+                    <div class="ca_text">
+                        <h2>April 19, 2017Festivals</h2>
+                        <h1>Music Heals Everything</h1>
+                    </div>
+                </a>
+            </div>
+
+            <div class="ca_box2">
+                <img src="img/reimg5.jpg" alt="">
+                <a href="#">
+                    <div class="ca_text">
+                        <h2>April 19, 2017Festivals</h2>
+                        <h1>Captivating and Creative</h1>
+                    </div>
+                </a>
+            </div>
+
+            <div class="ca_box2">
+                <img src="img/s5_img4.jpg" alt="">
+                <a href="#">
+                    <div class="ca_text">
+                        <h2>April 19, 2017Festivals</h2>
+                        <h1>Music Brings Relief</h1>
+                    </div>
+                </a>
+            </div>
+
+            <div class="ca_box1">
+                <a href="#"><img src="img/s5_img6.jpg" alt=""></a>
+            </div>
+        </section>
+
+
+        <!--섹션6 블로그 구간-->
+        <section id="newsword">
+            <h5>Madison Square Garden</h5>
+            <h2>Latest Blog Posts</h2>
+            <hr>
+            <div id="nw_big">
+                <div class="blog1">
+                    <a href="#">
+                        <div class="sblog1"><img src="img/blog1.jpg" alt=""></div>
+                    </a>
+                    <div class="sblog2">
+                        <h4>Imagine and Create</h4>
+                        <p class="p1">April 18, 2017</p>
+                        <p class="p2">Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in
+                            mei. Mei an pericula euripidis, hinc partem ei </p>
+                    </div>
+                </div>
+
+                <div class="blog2">
+                    <p>@SelectThemes</p>
+                    <a href="#">
+                        <h3>We’ve got something new and hot cooking here at Select. Stay tuned to find out more.</h3>
+                    </a>
+                    <hr>
+                    <p>Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an
+                        pericula euripidis, hinc partem ei</p>
+                    <p>June 09, 2015</p>
+                </div>
+
+                <div class="blog3">
+                    <a href="#">
+                        <div class="sblog1"><img src="img/blog2.jpg" alt=""></div>
+                    </a>
+                    <div class="sblog2">
+                        <h4>Publish with Pride</h4>
+                        <p class="p1">April 18, 2017</p>
+                        <p class="p2">Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in
+                            mei. Mei an pericula euripidis, hinc partem ei </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--섹션7 구독-->
+        <section id="letter">
+            <div class="lt_text">
+                <h1>Subscribe To The Newsletter</h1>
+                <input name="intext" type="text" value="Your Email...">
+                <span onclick="location.href='#'">Subscribe</span>
+            </div>
+        </section>
+
+
+        <!--섹션8 상품소개 구간-->
+        <section id="goods">
+            <h5>Madison Square Garden</h5>
+            <h2>Exclusive Merch</h2>
+            <hr>
+            <div id="gd_big">
+                <div class="gd_small">
+                    <a href="#">
+                        <div class="gd_box">
+                            <div class="gd_photo"><img src="img/s8_img1.jpg" alt=""></div>
+                            <div class="text">
+                                <p>add to cart</p>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <h5>Promo Shirt</h5>
+                            <p><del>$49</del> $39</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="gd_small">
+                    <a href="#">
+                        <div class="gd_box">
+                            <div class="gd_photo"><img src="img/s8_img2.jpg" alt=""></div>
+                            <div class="text">
+                                <p>add to cart</p>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <h5>Album Dream</h5>
+                            <p>$52</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div id="gd_small">
+                    <a href="#">
+                        <div class="gd_box">
+                            <div class="gd_photo"><img src="img/s8_img3.jpg" alt=""></div>
+                            <div class="text">
+                                <p>add to cart</p>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <h5>Silver Jacket</h5>
+                            <p><del>$75</del> $60</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="gd_small">
+                    <a href="#">
+                        <div class="gd_box">
+                            <div class="gd_photo"><img src="img/s8_img4.jpg" alt=""></div>
+                            <div class="text">
+                                <p>add to cart</p>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <h5>Headphones</h5>
+                            <p>$26</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="gd_small">
+                    <a href="#">
+                        <div class="gd_box">
+                            <div class="gd_photo"><img src="img/s8_img5.jpg" alt=""></div>
+                            <div class="text">
+                                <p>add to cart</p>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <h5>Vinyl</h5>
+                            <p>$52</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="gd_small">
+                    <a href="#">
+                        <div class="gd_box">
+                            <div class="gd_photo"><img src="img/s8_img6.jpg" alt=""></div>
+                            <div class="text">
+                                <p>add to cart</p>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <h5>Red California</h5>
+                            <p>$45</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="gd_small">
+                    <a href="#">
+                        <div class="gd_box">
+                            <div class="gd_photo"><img src="img/s8_img7.jpg" alt=""></div>
+                            <div class="text">
+                                <p>add to cart</p>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <h5>This Moment</h5>
+                            <p>$59</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="gd_small">
+                    <a href="#">
+                        <div class="gd_box">
+                            <div class="gd_photo"><img src="img/s8_img8.jpg" alt=""></div>
+                            <div class="text">
+                                <p>add to cart</p>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <h5>Urban Hoodie</h5>
+                            <p>$65</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+
+    <!--푸터-->
+    <footer>
+        <div id="fbox">
+            <img src="img/logo.png" alt="">
+            <p>© 2020 Qode Interactive, All Rights Reserved</p>
+            <p>+387 64 8459 254 68 mixtape@qodeinteractive.com</p>
+            <div id="fimg">
+                <img src="img/vimeo.png" alt="">
+                <img src="img/instagram.png" alt="">
+                <img src="img/twitter.png" alt="">
+                <img src="img/facebook.png" alt="">
+                <img src="img/tumblr.png" alt="">
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
